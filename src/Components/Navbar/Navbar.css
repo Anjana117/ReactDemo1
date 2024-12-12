@@ -1,24 +1,20 @@
-.nav{
-  height: 40px;
-  line-height: 40px;
-  background-color: green;
-  padding: 0px 100px;
+.navbar{
+    background-color: black;
 }
-.nav ul li{
-    display: inline-block;
-   
-}
-.nav ul li a{
-    text-decoration: none;
+.navbar .navbar-brand{
     color: white;
-    font-family: sans-serif;
-    padding: 0px 30px;
-    display: block;
+}
+.navbar .nav-link{
+    color: white;
+    font-weight: bold;
+    margin-right: 50px;
     transition: all 0.5s;
 }
-.nav ul li a:hover{
-    color: black;
-    background-color: white;
-   
-   
+.navbar .nav-link.active{
+    color: white;
+}
+.navbar .nav-link:hover{
+    color: white;
+    background-color: #272729;
+    border-radius: 30px;
 }

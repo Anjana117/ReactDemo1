@@ -1,0 +1,15 @@
+#Homeabout{
+    background-color:#1A2529 ;
+    color:white;
+}
+
+#Homeabout h4{
+   color: #15b695;
+   padding: 5px 0px;
+}
+#Homeabout .box {
+    padding: 30px;
+    background-color:#273238;
+    border-radius: 50px;
+
+}

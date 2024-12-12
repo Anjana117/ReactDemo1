@@ -1,11 +1,13 @@
 import React from 'react'
-import './Home.css'
+import Homebanner from './Homebanner/Homebanner'
+import Homeabout from './Homeabout/Homeabout'
 
-function Home() {
+function Home({props} ) {
   return (
-    <div className='Home'>
-        <h1>Home_Page  Component</h1>
-    </div>
+    <React.Fragment>
+      <Homebanner props={props}/>
+      <Homeabout />
+    </React.Fragment>
   )
 }
 

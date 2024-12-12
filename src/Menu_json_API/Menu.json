@@ -1,0 +1,52 @@
+[
+    {
+        "lable":"Home",
+        "link":"/",
+        "isDropdown":"false"
+
+
+    },
+    {
+        "lable":"About",
+        "link":"/about",
+        "isDropdown":"true",
+        "dropdownMenu":[
+            {
+            "lable":"About1",
+            "link":"/about1"
+           },
+           {
+            "lable":"About2",
+            "link":"/about2"
+           }
+        ]
+    },
+    {
+        "lable":"Contact",
+        "link":"/contact",
+        "isDropdown":"false"
+
+    },
+    {
+        "lable":"Service",
+        "link":"/service",
+        "isDropdown":"false"
+
+    },
+    {
+        "lable":"Blog",
+        "link":"/blog",
+        "isDropdown":"true",
+        "dropdownMenu":[
+            {
+                "lable":"Our Blog1",
+                "link":"/our_blog1"
+            },
+            {
+                "lable":"My Blog2",
+                "link":"my_about2"
+            }
+        ]
+
+    }
+]
