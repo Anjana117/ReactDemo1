@@ -33,7 +33,7 @@ function NavScrollExample({props}) {
   return (
     <Navbar expand="md" >
       <Container fluid="md">
-        <Link to="/" className='navbar-brand'><img src={props.logo} width="45px" height="45px"></img>&nbsp; <span>{props.name}</span></Link>
+        <Link to="/" className='navbar-brand'><img src={props.logo} width="45px" height="45px" alt='image'></img>&nbsp; <span>{props.name}</span></Link>
         <Navbar.Toggle aria-controls="navbarScroll" className='bg-light'/>
         <Navbar.Collapse id="navbarScroll">
           <Nav  className="mx-auto my-2 my-lg-0">
@@ -46,7 +46,7 @@ function NavScrollExample({props}) {
          {
         Menu.map((item,index)=>
         {
-          if(item.isDropdown==true)
+          if(item.isDropdown===true)
           {
             return <SubMenu para={item} key={index}/>
           }
